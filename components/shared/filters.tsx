@@ -12,6 +12,7 @@ interface Props {
   className?: string;
 }
 
+
 export const Filters: React.FC<Props> = ({ className }) => {
   const { ingredients, loading } = useIngredients();
 
