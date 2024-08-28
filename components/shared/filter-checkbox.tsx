@@ -9,7 +9,7 @@ export interface FilterCheckboxProps {
   checked?: boolean;
   name?: string;
 }
-console.log("FilterCheckbox");
+
 export const FilterCheckbox: React.FC<FilterCheckboxProps> = ({
   text,
   value,
